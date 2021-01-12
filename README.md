@@ -32,7 +32,7 @@ The code for the extensions is in the `src/` directory, and can be built into a
 browser extension by running:
 
     yarn install
-    make
+    make build
 
 Once this is done you should be able to load the `build/` directory as an
 unpacked extension.
@@ -53,7 +53,7 @@ in the `client` repository, and then
 
     yarn link hypothesis
 
-in the `browser-extension` repository. After that, a call to `make` will use the
+in the `browser-extension` repository. After that, a call to `make build` will use the
 built client from the client repository. Please consult the client's
 documentation for instructions on building the client in a development
 environment.

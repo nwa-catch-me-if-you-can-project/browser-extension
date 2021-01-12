@@ -7,7 +7,27 @@ MUSTACHE := node_modules/.bin/mustache
 PRETTIER := node_modules/.bin/prettier
 
 .PHONY: default
-default: extension
+default: help
+
+.PHONY: help
+help:
+	@echo "make help              Show this help message"
+	@echo "make dev               Watch for changes and build the browser-extension"
+	@echo "make build             Create a production build of the browser-extension"
+	@echo "make lint              Run the code linter(s) and print any warnings"
+	@echo "make checkformatting   Check code formatting"
+	@echo "make format            Automatically format code"
+	@echo "make test              Run the unit tests once"
+	@echo "make sure              Make sure that the formatter, linter, tests, etc all pass"
+	@echo "make clean             Delete development artefacts (cached files, "
+	@echo "                       dependencies, etc)"
+
+.PHONY: build
+build: extension
+
+.PHONY: dev
+dev:
+	yarn gulp watch
 
 .PHONY: clean
 clean:
@@ -92,5 +112,8 @@ format:
 .PHONY: test
 test:
 	yarn test
+
+.PHONY: sure
+sure: checkformatting lint test
 
 -include build/.*.deps
