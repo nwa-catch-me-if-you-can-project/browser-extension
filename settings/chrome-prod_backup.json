@@ -1,0 +1,19 @@
+{
+  "buildType": "production",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtSXNFVfxrskXqPlKL1BthsPdJMn5jirqDLUuL/4TR0pQN0HITX3Tw5q1Laeh95E4Niq7N8zFycsrrovPIxoWwF+ganV2QcKfra6NAGU5WNgemRXAqugfVxm0O9w8aXq/zsVhdvP5im0i3ib1BjAisLvNWee+f+1JiRIqxyOQRNRDuCSClTDr2aydZ86hjtE3SFKZYhyw5MSDrG4WK0E6aarpX/PCC067lBJh49ITQR8IU1DPdkHRVlUAK/1RnaQhCc1hGPl+vBNKENz98DWFDMYHwnQxOFWHK4f4EP1gvtauURSfwyr4CjK8y44IWEuzX4KZabMcAchhwqqGOod0NwIDAQAB",
+
+
+  "apiUrl": "https://hypothes.is/api/",
+  "authDomain": "hypothes.is",
+  "bouncerUrl": "https://hyp.is/",
+  "serviceUrl": "https://hypothes.is/",
+  "websocketUrl": "wss://hypothes.is/ws",
+
+  "oauthClientId": "fmepcochocmopcmdkpganbbgcpmnebap",
+
+  "sentryPublicDSN": "https://934d4f62912b47d8bb03c28ae6670cf8@app.getsentry.com/69811",
+  "googleAnalytics": "UA-26026798-5",
+
+  "browserIsChrome": true,
+  "appType": "chrome-extension"
+}
