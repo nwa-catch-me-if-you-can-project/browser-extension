@@ -1,12 +1,12 @@
 {
-  "name": "hypothesis-browser-extension",
-  "version": "1.637.0",
+  "name": "hypothesis-custom-tags-browser-extension",
+  "version": "1.0.0",
   "private": true,
-  "description": "Annotate with anyone, anywhere.",
+  "description": "Extension of Hypothes.is browser extension to enable importing of custom annotation tags.",
   "license": "BSD-2-Clause",
-  "homepage": "https://hypothes.is",
-  "bugs": "https://github.com/hypothesis/browser-extension/issues",
-  "repository": "hypothesis/browser-extension",
+  "homepage": "https://github.com/nwa-catch-me-if-you-can-project/browser-extension",
+  "bugs": "https://github.com/nwa-catch-me-if-you-can-project/browser-extension/issues",
+  "repository": "nwa-catch-me-if-you-can-project/browser-extension",
   "devDependencies": {
     "@babel/core": "^7.12.10",
     "@babel/preset-env": "^7.12.11",
