@@ -50,5 +50,7 @@
     "test": "karma start tests/karma.config.js --single-run",
     "typecheck": "tsc --build src/tsconfig.json"
   },
-  "dependencies": {}
+  "dependencies": {
+    "react-papaparse": "^3.16.1"
+  }
 }
